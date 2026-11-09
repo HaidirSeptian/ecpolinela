@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Website Resmi UKM English Club Politeknik Negeri Lampung (POLINELA) - Membentuk generasi muda yang cakap, percaya diri, dan berwawasan global." />
+  <title>UKM English Club POLINELA — State Polytechnic of Lampung</title>
+
+  <!-- Favicon Logo Organisasi -->
+  <link rel="icon" type="image/png" href="assets/img/logo-ec.png" />
+
+  <!-- Google Fonts: Poppins (Heading) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5.3 CSS (via CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- FontAwesome 6.5 Icons (via CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- File CSS Kustom -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =====================================================================
+       SECTION 1: HEADER & NAVBAR (Sticky Top)
+  ====================================================================== -->
+  <header class="sticky-top">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg ec-navbar" aria-label="Navigasi Utama">
+      <div class="container">
+        <!-- Logo Kiri & Nama Organisasi -->
+        <a class="navbar-brand" href="#beranda">
+          <span class="brand-logo-wrap">
+            <img
+              src="assets/img/logo-ec.png"
+              alt="Logo UKM English Club POLINELA"
+              onerror="this.onerror=null;this.src='assets/icons/ec-badge.svg';"
+            />
+          </span>
+          <span>
+            English Club POLINELA
+            <span class="brand-text-sub">State Polytechnic of Lampung</span>
+          </span>
+        </a>
+
+        <!-- Tombol Hamburger Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarECContent"
+          aria-controls="navbarECContent"
+          aria-expanded="false"
+          aria-label="Buka menu navigasi"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Menu Navigasi Kanan -->
+        <div class="collapse navbar-collapse" id="navbarECContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#divisi">Divisi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#struktur">Struktur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#program-kerja">Program Kerja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kelas">Kelas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =====================================================================
+         SECTION 2: HERO SECTION & 3 FLOATING STAT CARDS
+    ====================================================================== -->
+    <section id="beranda" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Kolom Kiri: Headline & CTA -->
+          <div class="col-lg-7">
+            <div class="hero-badge">
+              <i class="fa-solid fa-earth-asia text-success"></i>
+              <span>UNIT KEGIATAN MAHASISWA &bull; POLITEKNIK NEGERI LAMPUNG</span>
+            </div>
+
+            <h1 class="hero-title">
+              English Club <span class="text-polinela">POLINELA</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Membentuk generasi muda yang cakap, percaya diri, dan berwawasan global melalui penguasaan bahasa Inggris yang komprehensif.
+            </p>
+
+            <!-- Dua Tombol CTA -->
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#tentang" class="btn-cta-orange">
+                <span>Kenali Kami</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#program-kerja" class="btn-cta-outline">
+                <i class="fa-regular fa-compass"></i>
+                <span>Program Kerja</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Identitas Visual Logo & Pilar Kompetensi -->
+          <div class="col-lg-5">
+            <div class="hero-visual-box">
+              <div class="hero-orbit-ring">
+                <span class="floating-chip chip-top-left">
+                  <i class="fa-solid fa-comments text-primary"></i> BP Debate
+                </span>
+                <span class="floating-chip chip-top-right">
+                  <i class="fa-solid fa-spell-check text-success"></i> Scrabble
+                </span>
+                <span class="floating-chip chip-bottom-left">
+                  <i class="fa-solid fa-graduation-cap" style="color: var(--ec-orange);"></i> Academic &amp; TOEIC
+                </span>
+
+                <div class="hero-orbit-inner">
+                  <img
+                    src="assets/img/logo-ec.png"
+                    alt="Lambang Resmi English Club State Polytechnic of Lampung"
+                    onerror="this.onerror=null;this.src='assets/icons/ec-badge.svg';"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Kotak Statistik Melayang (Floating Cards) -->
+        <div class="hero-stats-wrapper">
+          <div class="row g-4">
+            <!-- Stat 1 -->
+            <div class="col-md-4">
+              <div class="stat-floating-card stat-card-orange">
+                <div class="stat-icon-box">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                  <div class="stat-number">
+                    <span class="counter-value" data-target="87">87</span>+
+                  </div>
+                  <p class="stat-label">Member Aktif</p>
+                  <p class="stat-desc">Mahasiswa lintas jurusan POLINELA</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="col-md-4">
+              <div class="stat-floating-card stat-card-navy">
+                <div class="stat-icon-box">
+                  <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <div>
+                  <div class="stat-number">
+                    <span class="counter-value" data-target="46">46</span>
+                  </div>
+                  <p class="stat-label">Presidium Aktif</p>
+                  <p class="stat-desc">Pengurus inti &amp; koordinator divisi</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="col-md-4">
+              <div class="stat-floating-card stat-card-green">
+                <div class="stat-icon-box">
+                  <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div>
+                  <div class="stat-number">
+                    <span class="counter-value" data-target="8">8</span>
+                  </div>
+                  <p class="stat-label">Program Kerja</p>
+                  <p class="stat-desc">Agenda unggulan tahunan organisasi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 3: TENTANG KAMI SECTION (Grid 2 Kolom)
+    ====================================================================== -->
+    <section id="tentang" class="section-padding bg-section-alt">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Kolom Kiri: Deskripsi, Kartu Visi, dan List Misi -->
+          <div class="col-lg-6 reveal-up">
+            <span class="section-eyebrow">
+              <i class="fa-solid fa-award"></i> Tentang Kami
+            </span>
+            <h2 class="section-title">
+              UKM English Club <span class="highlight-yellow">POLINELA</span>
+            </h2>
+            <p class="mb-4">
+             UKM English Club merupakan organisasi kemahasiswaan intra perguruan tinggi yang berkedudukan di Politeknik Negeri Lampung, Didirikan pada Desember 2004 berdasarkan keputusan Majelis Permusyawaratan Mahasiswa Politeknik Negeri lampung.
+            </p>
+
+            <!-- Kartu Visi -->
+            <div class="visi-card">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge rounded-pill text-dark" style="background-color: var(--ec-yellow);">
+                  <i class="fa-solid fa-bolt me-1"></i> VISI
+                </span>
+                <h3 class="h6 fw-bold mb-0">Visi Organisasi</h3>
+              </div>
+              <p class="mb-0 small text-secondary" style="font-size: 0.95rem;">
+                Menjadi Unit Kegiatan Mahasiswa yang unggul, inovatif, dan berprestasi dalam mengembangkan kemampuan bahasa Inggris mahasiswa Politeknik Negeri Lampung di tingkat regional maupun nasional.
+              </p>
+            </div>
+
+            <!-- Kartu & List Misi dengan Ikon Checklist -->
+            <div class="misi-card">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="badge rounded-pill" style="background-color: var(--ec-green);">
+                  <i class="fa-solid fa-layer-group me-1"></i> MISI
+                </span>
+                <h3 class="h6 fw-bold mb-0">Misi Strategis</h3>
+              </div>
+              <ul class="misi-list">
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Menyelenggarakan program pelatihan bahasa Inggris yang terstruktur, aplikatif, dan berkualitas.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Menciptakan lingkungan belajar yang kondusif, menyenangkan, suportif, dan inklusif bagi seluruh anggota.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Memfasilitasi serta membina anggota dalam mengikuti kompetisi bahasa Inggris bergengsi tingkat regional hingga nasional.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Membangun kolaborasi aktif dengan sivitas akademika dan komunitas eksternal untuk memperluas jejaring global.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Foto Gabungan Pengurus & Presidium Aktif -->
+          <div class="col-lg-6 reveal-up">
+            <div class="about-photo-frame">
+              <figure
+                class="about-photo-card mb-0"
+                data-doc-title="Jajaran Pengurus &amp; Presidium Aktif UKM English Club POLINELA 2026"
+                data-doc-src="assets/img/presidium-collage.jpg"
+                title="Klik untuk memperbesar foto Presidium"
+              >
+                <span class="about-badge-top">
+                  <i class="fa-solid fa-star text-warning"></i> Pengurus &amp; Presidium Aktif
+                </span>
+                <img
+                  src="assets/img/presidium-collage.jpg"
+                  alt="Foto Pengurus dan Presidium Aktif UKM English Club POLINELA 2026"
+                />
+                <figcaption class="about-photo-caption">
+                  <h4 class="h6 fw-bold text-white mb-1">Presidium English Club POLINELA</h4>
+                  <p class="small text-white-50 mb-0">
+                    <i class="fa-solid fa-location-dot me-1 text-warning"></i> Kampus Politeknik Negeri Lampung, Bandar Lampung
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 4: STRUKTUR ORGANISASI SECTION (Flexbox Hierarchy)
+    ====================================================================== -->
+    <section id="struktur" class="section-padding">
+      <div class="container">
+        <div class="text-center mb-4 reveal-up">
+          <span class="section-eyebrow">
+            <i class="fa-solid fa-sitemap"></i> Organisasi
+          </span>
+          <h2 class="section-title">Struktur Presidium</h2>
+          <p class="section-subtitle mx-auto">
+            Presidium English Club POLINELA terdiri dari 14 anggota aktif yang bersinergi menjalankan roda kepemimpinan, administrasi, dan pengembangan prestasi.
+          </p>
+        </div>
+
+        <!-- Indikator Warna Level & Fungsi Jabatan -->
+        <div class="text-center reveal-up">
+          <div class="org-legend">
+            <span><i class="legend-dot" style="background: var(--ec-navy);"></i>Pimpinan Utama &amp; Sekretariat</span>
+            <span><i class="legend-dot" style="background: var(--ec-green);"></i>Manajemen Keuangan</span>
+            <span><i class="legend-dot" style="background: var(--ec-yellow);"></i>Wakil Pimpinan &amp; Divisi</span>
+          </div>
+        </div>
+
+        <!-- Bagan Hierarki Organisasi (HTML/CSS Flexbox) -->
+        <div class="org-tree reveal-up">
+          <!-- Pucuk Pimpinan: Chairman -->
+          <div class="org-node org-node-chairman">
+            <span class="node-tag"><i class="fa-solid fa-star me-1"></i> Top Executive</span>
+            <div class="node-role">Chairman</div>
+            <small class="text-white-50">M. Haidir Septian</small>
+          </div>
+
+          <!-- Garis Penghubung -->
+          <div class="org-connector-v" aria-hidden="true"></div>
+
+          <!-- Level Kedua: Vice Chairman -->
+          <div class="org-node org-node-vice">
+            <span class="node-tag">Executive Partner</span>
+            <div class="node-role">Vice Chairman</div>
+            <small class="opacity-75">Fildzah Meilida Nurisma</small>
+          </div>
+
+          <!-- Garis Penghubung ke 3 Cabang -->
+          <div class="org-connector-v" aria-hidden="true"></div>
+
+          <!-- Tiga Cabang Hierarki: Sekretariat, Keuangan, dan Divisi -->
+          <div class="org-branches">
+            <!-- Cabang 1: Sekretariat (Aksen Biru) -->
+            <div class="org-branch-col">
+              <div class="branch-card-wrapper branch-blue">
+                <div class="branch-header-pill">
+                  <i class="fa-solid fa-file-signature"></i> Sekretariat
+                </div>
+                <div class="branch-item">
+                  <i class="fa-solid fa-user-pen me-2 text-primary"></i>Secretary
+                </div>
+                <div class="branch-item">
+                  <i class="fa-solid fa-file-lines me-2 text-primary"></i>Vice Secretary
+                </div>
+                <div class="mt-auto pt-2 text-center">
+                  <small class="text-muted d-block">Unit Pendukung: Secretarial Division</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cabang 2: Keuangan (Aksen Hijau) -->
+            <div class="org-branch-col">
+              <div class="branch-card-wrapper branch-green">
+                <div class="branch-header-pill">
+                  <i class="fa-solid fa-coins"></i> Keuangan
+                </div>
+                <div class="branch-item">
+                  <i class="fa-solid fa-wallet me-2 text-success"></i>Treasurer
+                </div>
+                <div class="branch-item">
+                  <i class="fa-solid fa-scale-balanced me-2 text-success"></i>Vice Treasurer
+                </div>
+                <div class="mt-auto pt-2 text-center">
+                  <small class="text-muted d-block">Unit Pendukung: Finance Division</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cabang 3: Divisi (Aksen Kuning) -->
+            <div class="org-branch-col">
+              <div class="branch-card-wrapper branch-yellow">
+                <div class="branch-header-pill">
+                  <i class="fa-solid fa-cubes"></i> Divisi
+                </div>
+                <div class="branch-item">
+                  <i class="fa-solid fa-people-group me-2 text-warning"></i>Internal Division
+                </div>
+                <div class="branch-item">
+                  <i class="fa-solid fa-handshake-simple me-2 text-warning"></i>External Division
+                </div>
+                <div class="branch-item">
+                  <div>
+                    <i class="fa-solid fa-medal me-2 text-warning"></i>Skill &amp; Achievement Division
+                  </div>
+                  <div class="subdivision-pills">
+                    <span>Academic Dev.</span>
+                    <span>Scrabble</span>
+                    <span>Debate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===============================================================
+             GALERI KARTU FOTO STRUKTUR PRESIDIUM & DIVISI 2026
+             (14 Kartu Foto Resmi — Tanpa Gambar Logo Pembatas)
+        ================================================================ -->
+        <div class="presidium-gallery-wrap mt-5 pt-5 border-top">
+          <div class="text-center mb-4 reveal-up">
+            <span class="section-eyebrow">
+              <i class="fa-solid fa-id-badge"></i> Presidium 2026
+            </span>
+            <h3 class="h2 fw-bold mb-2" style="color: var(--ec-navy-dark);">
+              Profil &amp; Foto Struktur Presidium
+            </h3>
+            <p class="section-subtitle mx-auto mb-4">
+              Kenali jajaran pengurus inti, koordinator divisi, serta tim sub-divisi UKM English Club POLINELA. Klik pada kartu untuk memperbesar foto.
+            </p>
+
+            <!-- Tombol Filter Kategori Presidium -->
+            <div class="presidium-filter-nav" role="group" aria-label="Filter Struktur Presidium">
+              <button type="button" class="presidium-filter-btn active" data-filter="all">
+                Semua (14)
+              </button>
+              <button type="button" class="presidium-filter-btn" data-filter="bph">
+                Presidium Inti (6)
+              </button>
+              <button type="button" class="presidium-filter-btn" data-filter="divisi">
+                Divisi (5)
+              </button>
+              <button type="button" class="presidium-filter-btn" data-filter="subdivisi">
+                Sub-Divisi (3)
+              </button>
+            </div>
+          </div>
+
+          <!-- TIER 1 & 2: BPH INTI (Chairman, Vice Chairman, Secretary, Treasurer) -->
+          <div class="presidium-tier-group" data-tier-category="bph">
+            <div class="tier-divider-label">
+              <span><i class="fa-solid fa-crown me-2 text-warning"></i>Pimpinan Utama (Executive Leadership)</span>
+            </div>
+
+            <!-- Baris 1: Chairman & Vice Chairman (2 Kartu Terpusat) -->
+            <div class="row g-4 justify-content-center mb-4">
+              <!-- Card 1: Chairman -->
+              <div class="col-6 col-md-5 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-navy"
+                  data-doc-title="Chairman UKM English Club 2026 — M. Haidir Septian"
+                  data-doc-src="assets/img/presidium/01-chairman.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/01-chairman.jpg" alt="Chairman - M. Haidir Septian" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-navy">Chairman</span>
+                    <h4 class="presidium-person-name">M. Haidir Septian</h4>
+                    <small class="presidium-unit-sub">UKM English Club 2026</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 2: Vice Chairman -->
+              <div class="col-6 col-md-5 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-yellow"
+                  data-doc-title="Vice Chairman UKM English Club 2026 — Fildzah Meilida Nurisma"
+                  data-doc-src="assets/img/presidium/02-vice-chairman.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/02-vice-chairman.jpg" alt="Vice Chairman - Fildzah Meilida Nurisma" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-yellow">Vice Chairman</span>
+                    <h4 class="presidium-person-name">Fildzah Meilida Nurisma</h4>
+                    <small class="presidium-unit-sub">UKM English Club 2026</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tier-divider-label">
+              <span><i class="fa-solid fa-briefcase me-2 text-primary"></i>Sekretaris &amp; Bendahara Umum</span>
+            </div>
+
+            <!-- Baris 2: Secretary, Vice Secretary, Treasurer, Vice Treasurer (4 Kartu) -->
+            <div class="row g-4 justify-content-center mb-5">
+              <!-- Card 3: Secretary -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-navy"
+                  data-doc-title="Secretary UKM English Club 2026 — Riska Ramadhani"
+                  data-doc-src="assets/img/presidium/03-secretary.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/03-secretary.jpg" alt="Secretary - Riska Ramadhani" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-navy">Secretary</span>
+                    <h4 class="presidium-person-name">Riska Ramadhani</h4>
+                    <small class="presidium-unit-sub">Kesekretariatan Inti</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 4: Vice Secretary -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-navy"
+                  data-doc-title="Vice Secretary UKM English Club 2026 — Yuli Efrida"
+                  data-doc-src="assets/img/presidium/04-vice-secretary.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/04-vice-secretary.jpg" alt="Vice Secretary - Yuli Efrida" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-navy">Vice Secretary</span>
+                    <h4 class="presidium-person-name">Yuli Efrida</h4>
+                    <small class="presidium-unit-sub">Kesekretariatan Inti</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 5: Treasurer -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-green"
+                  data-doc-title="Treasurer UKM English Club 2026 — Triksi Meladianti"
+                  data-doc-src="assets/img/presidium/05-treasurer.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/05-treasurer.jpg" alt="Treasurer - Triksi Meladianti" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-green">Treasurer</span>
+                    <h4 class="presidium-person-name">Triksi Meladianti</h4>
+                    <small class="presidium-unit-sub">Kebendaharaan Inti</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 6: Vice Treasurer -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-green"
+                  data-doc-title="Vice Treasurer UKM English Club 2026 — Sindi Vaura"
+                  data-doc-src="assets/img/presidium/06-vice-treasurer.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/06-vice-treasurer.jpg" alt="Vice Treasurer - Sindi Vaura" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-green">Vice Treasurer</span>
+                    <h4 class="presidium-person-name">Sindi Vaura</h4>
+                    <small class="presidium-unit-sub">Kebendaharaan Inti</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIER 3 & 4: DIVISI FUNGSIONAL & KOORDINATOR SKILL & ACHIEVEMENT -->
+          <div class="presidium-tier-group" data-tier-category="divisi">
+            <div class="tier-divider-label">
+              <span><i class="fa-solid fa-people-group me-2 text-success"></i>Divisi Fungsional &amp; Koordinator Bidang</span>
+            </div>
+
+            <!-- Baris 3: 4 Divisi Utama -->
+            <div class="row g-4 justify-content-center mb-4">
+              <!-- Card 7: Secretarial Division -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-navy"
+                  data-doc-title="Secretarial Division — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/07-secretarial-division.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/07-secretarial-division.jpg" alt="Secretarial Division UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-navy">Division</span>
+                    <h4 class="presidium-person-name">Secretarial Division</h4>
+                    <small class="presidium-unit-sub">Leader: Derlly Vika Anggara &amp; Tim</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 8: Finance Division -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-green"
+                  data-doc-title="Finance Division — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/08-finance-division.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/08-finance-division.jpg" alt="Finance Division UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-green">Division</span>
+                    <h4 class="presidium-person-name">Finance Division</h4>
+                    <small class="presidium-unit-sub">Leader: Riyandi TL Tobing &amp; Tim</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 9: Internal Division -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-yellow"
+                  data-doc-title="Internal Division — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/09-internal-division.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/09-internal-division.jpg" alt="Internal Division UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-yellow">Division</span>
+                    <h4 class="presidium-person-name">Internal Division</h4>
+                    <small class="presidium-unit-sub">Leader: M. Munajam Alqan &amp; Tim</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 10: External Division -->
+              <div class="col-6 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-yellow"
+                  data-doc-title="External Division — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/10-external-division.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/10-external-division.jpg" alt="External Division UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-yellow">Division</span>
+                    <h4 class="presidium-person-name">External Division</h4>
+                    <small class="presidium-unit-sub">Leader: Desi Putri Auliya &amp; Tim</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Baris 4: Leader of Skill & Achievement (1 Kartu Terpusat) -->
+            <div class="row g-4 justify-content-center mb-5">
+              <!-- Card 11: Skill & Achievement Leader -->
+              <div class="col-6 col-md-5 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-orange"
+                  data-doc-title="Leader of Skill & Achievement — Saskia Marsha Elnaviri"
+                  data-doc-src="assets/img/presidium/11-skill-achievement.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/11-skill-achievement.jpg" alt="Leader of Skill & Achievement - Saskia Marsha Elnaviri" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-orange">Skill &amp; Achievement</span>
+                    <h4 class="presidium-person-name">Saskia Marsha Elnaviri</h4>
+                    <small class="presidium-unit-sub">Leader of Skill &amp; Achievement</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIER 5: TIGA SUB-DIVISI SKILL & ACHIEVEMENT -->
+          <div class="presidium-tier-group" data-tier-category="subdivisi">
+            <div class="tier-divider-label">
+              <span><i class="fa-solid fa-medal me-2" style="color: var(--ec-orange);"></i>Sub-Divisi Skill &amp; Achievement</span>
+            </div>
+
+            <!-- Baris 5: Academic, Debate, Scrabble Subdivision (3 Kartu Terpusat) -->
+            <div class="row g-4 justify-content-center">
+              <!-- Card 12: Academic Subdivision -->
+              <div class="col-6 col-md-4 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-navy"
+                  data-doc-title="Academic Subdivision — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/12-academic-subdivision.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/12-academic-subdivision.jpg" alt="Academic Subdivision UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-navy">Sub-Division</span>
+                    <h4 class="presidium-person-name">Academic Subdivision</h4>
+                    <small class="presidium-unit-sub">Leader: Revalia Erisindia A. &amp; Tim</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 13: Debate Subdivision -->
+              <div class="col-6 col-md-4 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-yellow"
+                  data-doc-title="Debate Subdivision — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/13-debate-subdivision.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/13-debate-subdivision.jpg" alt="Debate Subdivision UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-yellow">Sub-Division</span>
+                    <h4 class="presidium-person-name">Debate Subdivision</h4>
+                    <small class="presidium-unit-sub">Tim Pengurus Debate Subdivision</small>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Card 14: Scrabble Subdivision -->
+              <div class="col-6 col-md-4 col-lg-3 reveal-up">
+                <article
+                  class="presidium-photo-card accent-green"
+                  data-doc-title="Scrabble Subdivision — UKM English Club 2026"
+                  data-doc-src="assets/img/presidium/14-scrabble-subdivision.jpg"
+                >
+                  <div class="presidium-img-frame">
+                    <span class="presidium-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                    <img src="assets/img/presidium/14-scrabble-subdivision.jpg" alt="Scrabble Subdivision UKM English Club" loading="lazy" />
+                  </div>
+                  <div class="presidium-card-info">
+                    <span class="presidium-role-badge badge-green">Sub-Division</span>
+                    <h4 class="presidium-person-name">Scrabble Subdivision</h4>
+                    <small class="presidium-unit-sub">Leader: Dwi Nur Khasanah &amp; Tim</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 5: DIVISI KOMPETISI SECTION (2 Kartu Besar + Lift-Up Hover)
+    ====================================================================== -->
+    <section id="divisi" class="section-padding bg-section-green-tint">
+      <div class="container">
+        <div class="text-center mb-5 reveal-up">
+          <span class="section-eyebrow">
+            <i class="fa-solid fa-trophy"></i> Divisi Kompetensi
+          </span>
+          <h2 class="section-title">Dua Divisi Kompetensi</h2>
+          <p class="section-subtitle mx-auto">
+            English Club memiliki dua sub-divisi kompetisi utama yang secara konsisten membina delegasi terbaik POLINELA hingga ke kancah nasional.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Kartu 1: Scrabble Sub-Division -->
+          <div class="col-lg-6 reveal-up">
+            <article class="division-card">
+              <div class="division-banner">
+                <img
+                  src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=1000&q=80"
+                  alt="Ilustrasi Kompetisi Scrabble Sub-Division"
+                />
+                <div class="division-banner-overlay">
+                  <div>
+                    <span class="badge rounded-pill px-3 py-2" style="background: rgba(15, 127, 62, 0.9);">
+                      SUB-DIVISION
+                    </span>
+                  </div>
+                  <div class="division-watermark">SC</div>
+                </div>
+              </div>
+
+              <div class="division-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <div>
+                    <h3 class="h4 fw-bold mb-1">Scrabble Sub-Division</h3>
+                    <span class="small fw-semibold" style="color: var(--ec-green);">Word Mastery &amp; Board Strategy</span>
+                  </div>
+                  <div class="division-icon-circle" style="background: var(--ec-green-soft); color: var(--ec-green);">
+                    <i class="fa-solid fa-bullseye"></i>
+                  </div>
+                </div>
+
+                <p class="text-secondary mb-4">
+                  Divisi Scrabble mengkhususkan diri dalam penguasaan ribuan kosakata bahasa Inggris berstandar turnamen internasional serta taktik bermain Scrabble kompetitif. Anggota dilatih menguasai teknik <em>anagramming</em>, perhitungan probabilitas ubin, dan strategi <em>board placement</em> yang efektif.
+                </p>
+
+                <!-- Badges Utama -->
+                <div class="d-flex flex-wrap gap-2 mb-2">
+                  <span class="badge-schedule-green">
+                    <i class="fa-regular fa-calendar-check"></i> Latihan Rutin: Tiap Jumat
+                  </span>
+                  <span class="badge-target-red">
+                    <i class="fa-solid fa-flag-checkered"></i> Target: Nasional
+                  </span>
+                </div>
+
+                <!-- Atribut Ringkas -->
+                <div class="division-meta-grid">
+                  <div class="division-meta-box">
+                    <small>Fokus Utama</small>
+                    <strong>Vocabulary &amp; Anagram</strong>
+                  </div>
+                  <div class="division-meta-box">
+                    <small>Level Pembinaan</small>
+                    <strong>Kompetitif Nasional</strong>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Kartu 2: Debate Sub-Division -->
+          <div class="col-lg-6 reveal-up">
+            <article class="division-card">
+              <div class="division-banner">
+                <img
+                  src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1000&q=80"
+                  alt="Ilustrasi Podium Debate Sub-Division"
+                />
+                <div class="division-banner-overlay">
+                  <div>
+                    <span class="badge rounded-pill px-3 py-2 text-dark" style="background: var(--ec-yellow);">
+                      SUB-DIVISION
+                    </span>
+                  </div>
+                  <div class="division-watermark">DB</div>
+                </div>
+              </div>
+
+              <div class="division-body">
+                <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                  <div>
+                    <h3 class="h4 fw-bold mb-1">Debate Sub-Division</h3>
+                    <span class="small fw-semibold" style="color: var(--ec-navy);">Parliamentary Debating &amp; Rhetoric</span>
+                  </div>
+                  <div class="division-icon-circle" style="background: var(--ec-navy-soft); color: var(--ec-navy);">
+                    <i class="fa-solid fa-microphone-lines"></i>
+                  </div>
+                </div>
+
+                <p class="text-secondary mb-4">
+                  Divisi Debate melatih anggota dalam seni berdebat akademik menggunakan format <strong>British Parliamentary (BP)</strong>. Berfokus pada ketajaman berpikir kritis (<em>critical thinking</em>), konstruksi argumentasi logis atas isu global, teknik sanggahan, dan <em>public speaking</em> yang persuasif.
+                </p>
+
+                <!-- Badges Utama -->
+                <div class="d-flex flex-wrap gap-2 mb-2">
+                  <span class="badge-schedule-navy">
+                    <i class="fa-regular fa-calendar-check"></i> Latihan Rutin: Tiap Sabtu
+                  </span>
+                  <span class="badge-target-red">
+                    <i class="fa-solid fa-flag-checkered"></i> Target: Nasional
+                  </span>
+                </div>
+
+                <!-- Atribut Ringkas -->
+                <div class="division-meta-grid">
+                  <div class="division-meta-box">
+                    <small>Format Debat</small>
+                    <strong>British Parliamentary</strong>
+                  </div>
+                  <div class="division-meta-box">
+                    <small>Fokus Utama</small>
+                    <strong>Critical Thinking</strong>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 6: PROGRAM KERJA SECTION (8 Program Kerja - Grid 4 Kolom)
+    ====================================================================== -->
+    <section id="program-kerja" class="section-padding">
+      <div class="container">
+        <div class="text-center mb-5 reveal-up">
+          <span class="section-eyebrow">
+            <i class="fa-solid fa-calendar-check"></i> Program Kerja
+          </span>
+          <h2 class="section-title">8 Program Kerja</h2>
+          <p class="section-subtitle mx-auto">
+            Setiap program kerja dirancang secara berkesinambungan untuk mengasah kompetensi bahasa, kepedulian sosial, kreativitas seni, dan kepemimpinan anggota.
+          </p>
+        </div>
+
+        <!-- Grid 4 Kolom pada Desktop -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <!-- Program 1: Sharing Joy, Inspiring Young Hearts -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-red" title="Bakti Sosial &amp; Pengabdian"><i class="fa-solid fa-hand-holding-heart"></i></span>
+                <span class="program-num-badge">1</span>
+                <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfmyy40eQzBvFze6l5iqaHDJuxdV8KhEpDwzps7CpFYQZhK9T5n694bqd13vHnuUWfvCNN3WodjLcBqRw02RM8zOy_3XMBSjUNvwPOjJH-023kifYRiOJJPslsgPa0uYPBSH8nKCWtaGsjD275GKbEgeI2FurNHi6Y53eOdBwUQkSaMxdB2uofKyYaubTNESD1oOrgVPMQD3eY7VIXm8jk6HGgi2UwUhENrg2r5=w1280" alt="Sharing Joy, Inspiring Young Hearts" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">Sharing Joy, Inspiring Young Hearts</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Bakti sosial bertema &ldquo;Weaving Love, Growing Together, Inspiring Millions in a Day&rdquo; di LKSA Sholawatul Falah, Lempasing, Pesawaran.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> 25 April 2026</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="0" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 2: TOEIC SKILL BOOSTER -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-green" title="Tes Kemampuan Bahasa Inggris TOEIC"><i class="fa-solid fa-clipboard-check"></i></span>
+                <span class="program-num-badge">2</span>
+                <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQe0dzMCaAKv_JnDC1QSFTOVq6rPyuXwqyhviWuKTFNBMx2Qsw-oBSyUohlUj3kNzDv5-7CPfCv9hgNgzJvMojVIBnhoYooJvrerDVBPni0_8OpZAe9J3lFsD_2UwUMCvsti5Slyi5YIQfZfYXqO4i8k8Uv1fY9k8NiiHWrOWYYqEyfNJQaYFpP172HbZZWvyoA1U9sqccTwC9aUphVqzUiWdgu_BceydrlAa1MK=w1280" alt="Program TOEIC Skill Booster" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">TOEIC Skill Booster</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Tes kemampuan berbahasa Inggris sesi <em>reading</em> dan <em>listening</em> bertema &ldquo;The Skill Quest: Train Hard, Score Higher!&rdquo; secara <em>hybrid</em> di Polinela.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> 6 Juni 2026</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="1" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 3: Theatre in Motion Vol ll -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-orange" title="Seni Peran &amp; Teater Bahasa Inggris"><i class="fa-solid fa-masks-theater"></i></span>
+                <span class="program-num-badge">3</span>
+                <img src="https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=80" alt="Theatre in Motion Vol ll" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">Theatre in Motion Vol ll</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Pertunjukan seni peran dan teater panggung berbahasa Inggris yang ekspresif serta memukau penonton.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> Juni 2024</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="2" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 4: Pathway to English Club Selection -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-navy" title="Seleksi &amp; Open Recruitment Anggota Baru"><i class="fa-solid fa-user-check"></i></span>
+                <span class="program-num-badge">4</span>
+                <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=700&q=80" alt="Pathway to English Club Selection" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">Pathway to English Club Selection</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Proses penjaringan dan seleksi terbuka bagi mahasiswa baru untuk bergabung bersama keluarga besar English Club.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> Juli 2024</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="3" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 5: New Member Training -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-green" title="Pelatihan &amp; Orientasi Anggota Baru"><i class="fa-solid fa-chalkboard-user"></i></span>
+                <span class="program-num-badge">5</span>
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80" alt="New Member Training" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">New Member Training</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Pelatihan dasar kepemimpinan, pengenalan nilai organisasi, dan orientasi komprehensif bagi anggota baru.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> Agustus 2024</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="4" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 6: English Proficiency Awards -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-gold" title="Kompetisi &amp; Penganugerahan Prestasi"><i class="fa-solid fa-trophy"></i></span>
+                <span class="program-num-badge">6</span>
+                <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=700&q=80" alt="English Proficiency Awards" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">English Proficiency Awards</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Kompetisi dan malam penganugerahan bergengsi bagi mahasiswa berprestasi di berbagai cabang perlombaan bahasa Inggris.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> Oktober 2024</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="5" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 7: Anniversary Celebration of English Club -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-red" title="Perayaan Ulang Tahun English Club"><i class="fa-solid fa-cake-candles"></i></span>
+                <span class="program-num-badge">7</span>
+                <img src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?auto=format&fit=crop&w=700&q=80" alt="Anniversary Celebration of English Club" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">Anniversary Celebration of English Club</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Perayaan puncak ulang tahun UKM English Club POLINELA bersama alumni dan sivitas akademika yang penuh kenangan.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> Desember 2024</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="6" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 8: General Sessions -->
+          <div class="col reveal-up">
+            <div class="card program-card h-100">
+              <div class="program-img-wrap">
+                <span class="program-icon-tag icon-tag-navy" title="Sidang Umum &amp; Musyawarah Organisasi"><i class="fa-solid fa-gavel"></i></span>
+                <span class="program-num-badge">8</span>
+                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=700&q=80" alt="General Sessions" />
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h6 fw-bold mb-2">General Sessions</h3>
+                <p class="small text-secondary mb-4 flex-grow-1">
+                  Sidang umum tahunan evaluasi laporan pertanggungjawaban kepengurusan serta estafet kepemimpinan UKM English Club POLINELA.
+                </p>
+                <div class="d-flex align-items-center justify-content-between pt-2 border-top">
+                  <span class="program-date-badge"><i class="fa-regular fa-calendar"></i> Desember 2024</span>
+                  <a href="#programModal" class="program-detail-link" data-program-index="7" data-bs-toggle="modal" data-bs-target="#programModal">
+                    Detail <i class="fa-solid fa-chevron-right small"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 7: KELAS RUTIN SECTION (Interactive Bootstrap Tabs)
+    ====================================================================== -->
+    <section id="kelas" class="section-padding bg-section-alt">
+      <div class="container">
+        <div class="text-center mb-4 reveal-up">
+          <span class="section-eyebrow">
+            <i class="fa-solid fa-chalkboard-user"></i> Kelas Rutin
+          </span>
+          <h2 class="section-title">Agenda Kelas</h2>
+          <p class="section-subtitle mx-auto mb-4">
+            English Club menyelenggarakan tiga kelas rutin setiap minggunya untuk mengasah kecakapan anggota secara terarah dan berkelanjutan.
+          </p>
+
+          <!-- Navigasi Tab Interaktif: Academic, Scrabble, Debate -->
+          <ul class="nav ec-tabs-nav" id="agendaKelasTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="academic-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#pane-academic"
+                type="button"
+                role="tab"
+                aria-controls="pane-academic"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-book me-1"></i> Academic
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="scrabble-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#pane-scrabble"
+                type="button"
+                role="tab"
+                aria-controls="pane-scrabble"
+                aria-selected="false"
+              >
+                <i class="fa-solid fa-border-all me-1"></i> Scrabble
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="debate-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#pane-debate"
+                type="button"
+                role="tab"
+                aria-controls="pane-debate"
+                aria-selected="false"
+              >
+                <i class="fa-solid fa-comments me-1"></i> Debate
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Konten Tab -->
+        <div class="tab-content pt-3" id="agendaKelasTabContent">
+
+          <!-- ==================== TAB 1: ACADEMIC CLASS ==================== -->
+          <div class="tab-pane fade show active" id="pane-academic" role="tabpanel" aria-labelledby="academic-tab" tabindex="0">
+            <div class="row g-4 align-items-stretch">
+              <!-- Kiri: Foto, Deskripsi, Jadwal, Instruktur, Lokasi -->
+              <div class="col-lg-6">
+                <div class="class-main-card h-100 d-flex flex-column">
+                  <div class="class-hero-img">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80" alt="Suasana Academic Class English Club POLINELA" />
+                    <div class="class-hero-overlay">
+                      <span class="badge align-self-start mb-2" style="background: var(--ec-orange);">Rabu, 15.30 WIB</span>
+                      <h3 class="h4 fw-bold text-white mb-0">Academic Class</h3>
+                    </div>
+                  </div>
+                  <div class="p-4 d-flex flex-column gap-3 flex-grow-1">
+                    <p class="mb-1 text-secondary">
+                      Kelas Academic adalah program pembelajaran bahasa Inggris komprehensif yang mencakup <em>English grammar</em>, <em>academic writing</em>, <em>reading comprehension</em>, dan pengayaan kosakata profesional dengan metode interaktif berbasis praktik langsung.
+                    </p>
+
+                    <div class="d-flex flex-column gap-2 mt-auto">
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-regular fa-clock"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Jadwal Pertemuan</small>
+                          <strong class="text-dark">Setiap Rabu, 15.30 – 17.30 WIB</strong>
+                        </div>
+                      </div>
+
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Instruktur</small>
+                          <strong class="text-dark">Tim Instruktur Academic Development Sub-Division</strong>
+                        </div>
+                      </div>
+
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Lokasi Kelas</small>
+                          <strong class="text-dark">Ruang 3.2, Gedung Kuliah POLINELA</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Kanan: Tujuan Pembelajaran & Galeri Dokumentasi 3 Thumbnail -->
+              <div class="col-lg-6 d-flex flex-column gap-4">
+                <div class="class-side-card p-4">
+                  <h4 class="h6 fw-bold mb-3">
+                    <i class="fa-solid fa-list-check me-2 text-success"></i>Tujuan Pembelajaran
+                  </h4>
+                  <ol class="list-group list-group-numbered learning-list">
+                    <li class="list-group-item">Meningkatkan kemampuan <em>writing</em> akademik bahasa Inggris secara terstruktur.</li>
+                    <li class="list-group-item">Memperluas penguasaan kosakata untuk konteks akademik dan dunia kerja profesional.</li>
+                    <li class="list-group-item">Melatih ketajaman <em>reading comprehension</em> pada artikel serta teks ilmiah.</li>
+                    <li class="list-group-item">Mempersiapkan mahasiswa secara intensif menghadapi ujian sertifikasi TOEIC POLINELA.</li>
+                  </ol>
+                </div>
+
+                <div class="class-side-card p-4 mt-auto">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="h6 fw-bold mb-0">
+                      <i class="fa-regular fa-images me-2 text-primary"></i>Dokumentasi Kelas
+                    </h4>
+                    <small class="text-muted">Klik foto untuk memperbesar</small>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Diskusi Materi Academic Class" data-doc-src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Academic 1" />
+                      </button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Praktik Presentasi Bahasa Inggris" data-doc-src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Academic 2" />
+                      </button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Simulasi TOEIC & Peer Review" data-doc-src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Academic 3" />
+                      </button>
+                    </div>
+                  </div>
+                  <small class="text-muted d-block mt-3">
+                    Dokumentasi Academic Class &bull; English Club POLINELA
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ==================== TAB 2: SCRABBLE CLASS ==================== -->
+          <div class="tab-pane fade" id="pane-scrabble" role="tabpanel" aria-labelledby="scrabble-tab" tabindex="0">
+            <div class="row g-4 align-items-stretch">
+              <div class="col-lg-6">
+                <div class="class-main-card h-100 d-flex flex-column">
+                  <div class="class-hero-img">
+                    <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=1000&q=80" alt="Suasana Scrabble Class English Club POLINELA" />
+                    <div class="class-hero-overlay">
+                      <span class="badge align-self-start mb-2" style="background: var(--ec-green);">Jumat, 15.30 WIB</span>
+                      <h3 class="h4 fw-bold text-white mb-0">Scrabble Class</h3>
+                    </div>
+                  </div>
+                  <div class="p-4 d-flex flex-column gap-3 flex-grow-1">
+                    <p class="mb-1 text-secondary">
+                      Kelas Scrabble melatih ketangkasan menyusun kata bernilai tinggi menggunakan kamus resmi <em>Collins Scrabble Words (CSW)</em>, manajemen <em>rack</em> huruf, serta simulasi pertandingan 1-lawan-1 menggunakan <em>timer</em> standar turnamen nasional.
+                    </p>
+
+                    <div class="d-flex flex-column gap-2 mt-auto">
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-regular fa-clock"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Jadwal Pertemuan</small>
+                          <strong class="text-dark">Setiap Jumat, 15.30 – 17.30 WIB</strong>
+                        </div>
+                      </div>
+
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Instruktur</small>
+                          <strong class="text-dark">Tim Pelatih &amp; Senior Master Scrabble Sub-Division</strong>
+                        </div>
+                      </div>
+
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Lokasi Kelas</small>
+                          <strong class="text-dark">Student Center / Ruang Diskusi UKM POLINELA</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 d-flex flex-column gap-4">
+                <div class="class-side-card p-4">
+                  <h4 class="h6 fw-bold mb-3">
+                    <i class="fa-solid fa-list-check me-2 text-success"></i>Tujuan Pembelajaran
+                  </h4>
+                  <ol class="list-group list-group-numbered learning-list">
+                    <li class="list-group-item">Menguasai hafalan kosakata <em>2-letter</em>, <em>3-letter</em>, hingga <em>7-letter bingo words</em> berprobabilitas tinggi.</li>
+                    <li class="list-group-item">Melatih strategi <em>parallel play</em>, <em>hook words</em>, dan penguncian kotak skor premium.</li>
+                    <li class="list-group-item">Mengasah manajemen keseimbangan huruf vokal dan konsonan (<em>rack leave management</em>).</li>
+                    <li class="list-group-item">Meningkatkan jam terbang tanding melalui liga internal mingguan berbasis <em>Zyzzyva</em>.</li>
+                  </ol>
+                </div>
+
+                <div class="class-side-card p-4 mt-auto">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="h6 fw-bold mb-0">
+                      <i class="fa-regular fa-images me-2 text-primary"></i>Dokumentasi Kelas
+                    </h4>
+                    <small class="text-muted">Klik foto untuk memperbesar</small>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Latihan Strategi Papan Scrabble" data-doc-src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Scrabble 1" />
+                      </button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Sesi Anagramming & Word Quiz" data-doc-src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Scrabble 2" />
+                      </button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Sparring Persiapan Kompetisi Nasional" data-doc-src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Scrabble 3" />
+                      </button>
+                    </div>
+                  </div>
+                  <small class="text-muted d-block mt-3">
+                    Dokumentasi Scrabble Class &bull; English Club POLINELA
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ==================== TAB 3: DEBATE CLASS ==================== -->
+          <div class="tab-pane fade" id="pane-debate" role="tabpanel" aria-labelledby="debate-tab" tabindex="0">
+            <div class="row g-4 align-items-stretch">
+              <div class="col-lg-6">
+                <div class="class-main-card h-100 d-flex flex-column">
+                  <div class="class-hero-img">
+                    <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=1000&q=80" alt="Suasana Debate Class English Club POLINELA" />
+                    <div class="class-hero-overlay">
+                      <span class="badge align-self-start mb-2 text-dark" style="background: var(--ec-yellow);">Sabtu, 09.00 WIB</span>
+                      <h3 class="h4 fw-bold text-white mb-0">Debate Class</h3>
+                    </div>
+                  </div>
+                  <div class="p-4 d-flex flex-column gap-3 flex-grow-1">
+                    <p class="mb-1 text-secondary">
+                      Kelas Debate mengasah ketajaman berpikir logis dan retorika bahasa Inggris melalui bedah mosi terkini (hubungan internasional, ekonomi, hukum, sosial) dilanjutkan sesi <em>chamber debate</em> dan evaluasi lisan (<em>oral adjudication</em>).
+                    </p>
+
+                    <div class="d-flex flex-column gap-2 mt-auto">
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-regular fa-clock"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Jadwal Pertemuan</small>
+                          <strong class="text-dark">Setiap Sabtu, 09.00 – 11.30 WIB</strong>
+                        </div>
+                      </div>
+
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Instruktur</small>
+                          <strong class="text-dark">Tim Coach &amp; Adjudicator Debate Sub-Division</strong>
+                        </div>
+                      </div>
+
+                      <div class="class-info-row">
+                        <div class="class-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                          <small class="text-muted d-block">Lokasi Kelas</small>
+                          <strong class="text-dark">Aula Diskusi Gedung Kuliah Terpadu POLINELA</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 d-flex flex-column gap-4">
+                <div class="class-side-card p-4">
+                  <h4 class="h6 fw-bold mb-3">
+                    <i class="fa-solid fa-list-check me-2 text-success"></i>Tujuan Pembelajaran
+                  </h4>
+                  <ol class="list-group list-group-numbered learning-list">
+                    <li class="list-group-item">Memahami peran <em>Opening/Closing Government</em> dan <em>Opposition</em> dalam format <em>British Parliamentary</em>.</li>
+                    <li class="list-group-item">Melatih penyusunan argumen AREL secara sistematis dalam sesi <em>15-minute case building</em>.</li>
+                    <li class="list-group-item">Menguasai strategi interupsi <em>Point of Information (POI)</em> serta teknik <em>rebuttal</em> yang tajam.</li>
+                    <li class="list-group-item">Mempersiapkan delegasi terbaik menuju seleksi NUDC dan turnamen debat tingkat nasional.</li>
+                  </ol>
+                </div>
+
+                <div class="class-side-card p-4 mt-auto">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="h6 fw-bold mb-0">
+                      <i class="fa-regular fa-images me-2 text-primary"></i>Dokumentasi Kelas
+                    </h4>
+                    <small class="text-muted">Klik foto untuk memperbesar</small>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Sesi Case Building 15 Menit" data-doc-src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Debate 1" />
+                      </button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Sparring British Parliamentary Debate" data-doc-src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Debate 2" />
+                      </button>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="doc-thumb-btn" data-doc-title="Evaluasi & Oral Adjudication" data-doc-src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=400&q=80" alt="Dokumentasi Debate 3" />
+                      </button>
+                    </div>
+                  </div>
+                  <small class="text-muted d-block mt-3">
+                    Dokumentasi Debate Class &bull; English Club POLINELA
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       SECTION 8: FOOTER (Primary Navy Color)
+  ====================================================================== -->
+  <footer class="ec-footer">
+    <div class="container">
+      <div class="row g-4 pb-4 border-bottom border-light border-opacity-10">
+        <!-- Info Organisasi -->
+        <div class="col-lg-5">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <span class="brand-logo-wrap">
+              <img
+                src="assets/img/logo-ec.png"
+                alt="Logo UKM English Club POLINELA"
+                onerror="this.onerror=null;this.src='assets/icons/ec-badge.svg';"
+              />
+            </span>
+            <div>
+              <h4 class="h5 fw-bold text-white mb-0">English Club POLINELA</h4>
+              <small style="color: var(--ec-yellow);">State Polytechnic of Lampung</small>
+            </div>
+          </div>
+          <p class="small mb-3 pe-lg-4">
+            Wadah resmi pengembangan kompetensi bahasa Inggris, kepemimpinan, dan prestasi kompetisi mahasiswa Politeknik Negeri Lampung.
+          </p>
+          <div class="d-flex gap-2">
+            <a href="https://www.instagram.com/ecpolinela?srtk=MWM0eWMydDJpdGx0NA==" class="social-btn" aria-label="Instagram English Club POLINELA"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@ecpolinela" class="social-btn" aria-label="YouTube English Club POLINELA"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://vm.tiktok.com/ZS9fBaRn317hr-GfUZ4/" class="social-btn" aria-label="TikTok English Club POLINELA"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="mailto:englishclub@polinela.ac.id" class="social-btn" aria-label="Email English Club POLINELA"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Tautan Navigasi Cepat -->
+        <div class="col-6 col-lg-3">
+          <h5>Navigasi</h5>
+          <ul class="footer-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#struktur">Struktur Presidium</a></li>
+            <li><a href="#divisi">Divisi Kompetisi</a></li>
+            <li><a href="#program-kerja">Program Kerja</a></li>
+            <li><a href="#kelas">Agenda Kelas</a></li>
+          </ul>
+        </div>
+
+        <!-- Sekretariat & Jadwal Latihan -->
+        <div class="col-6 col-lg-4">
+          <h5>Sekretariat &amp; Jadwal</h5>
+          <ul class="footer-links small">
+            <li>
+              <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+              Jl. Soekarno Hatta No.10, Rajabasa Raya, Bandar Lampung 35144
+            </li>
+            <li>
+              <i class="fa-regular fa-calendar-check me-2 text-warning"></i>
+              Academic Class: Rabu, 15.30 WIB
+            </li>
+            <li>
+              <i class="fa-regular fa-calendar-check me-2 text-warning"></i>
+              Scrabble Class: Jumat, 15.30 WIB
+            </li>
+            <li>
+              <i class="fa-regular fa-calendar-check me-2 text-warning"></i>
+              Debate Class: Sabtu, 09.00 WIB
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-4 d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 small text-white-50">
+        <span>&copy; 2026 UKM English Club Politeknik Negeri Lampung. All rights reserved.</span>
+        <span>Crafted with Clean UI &bull; Pride of POLINELA</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tombol Kembali ke Atas -->
+  <button id="backToTopBtn" class="back-to-top" type="button" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- =====================================================================
+       MODAL INTERAKTIF: DETAIL PROGRAM KERJA & PREVIEW DOKUMENTASI
+  ====================================================================== -->
+  <div class="modal fade" id="programModal" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+      <div class="modal-content border-0 shadow-lg" style="border-radius: 20px; overflow: hidden;">
+        <div class="modal-header text-white border-0 px-4 py-3" style="background: var(--ec-navy);">
+          <div>
+            <span id="modalProgramDate" class="badge rounded-pill text-dark mb-1" style="background: var(--ec-yellow);">25 April 2026</span>
+            <h5 class="modal-title fw-bold text-white mb-0" id="programModalLabel">Detail Program Kerja</h5>
+          </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+
+        <div class="modal-body p-4">
+          <!-- Poster / Dokumentasi Kegiatan -->
+          <div id="modalProgramImgWrap" class="program-modal-banner mb-3 d-none">
+            <img id="modalProgramImg" src="" alt="Poster Program Kerja" />
+          </div>
+
+          <!-- Highlight Tema Kegiatan (Opsional jika tersedia) -->
+          <div id="modalProgramThemeWrap" class="program-theme-callout mb-3 d-none">
+            <i class="fa-solid fa-quote-left me-2"></i>
+            <span id="modalProgramTheme"></span>
+          </div>
+
+          <!-- Isi Artikel / Deskripsi Lengkap Program Kerja -->
+          <div id="modalProgramDesc" class="program-article-body text-secondary mb-4"></div>
+
+          <!-- Informasi Detail Pelaksanaan (Opsional jika tersedia) -->
+          <div id="modalProgramMetaGrid" class="row g-2 mb-3 d-none"></div>
+
+          <!-- Sasaran & Output Utama -->
+          <div class="p-3 rounded-3 mb-3" style="background: var(--bg-light); border: 1px solid var(--border-subtle);">
+            <div class="small mb-2">
+              <strong class="text-dark"><i class="fa-solid fa-bullseye me-2 text-success"></i>Sasaran Kegiatan:</strong>
+              <span id="modalProgramTarget" class="text-secondary"></span>
+            </div>
+            <div class="small">
+              <strong class="text-dark"><i class="fa-solid fa-award me-2 text-warning"></i>Output Utama:</strong>
+              <span id="modalProgramOutput" class="text-secondary"></span>
+            </div>
+          </div>
+
+          <!-- Kanal Dokumentasi & Media Sosial Resmi -->
+          <div id="modalProgramSocial" class="program-social-box d-none">
+            <div class="small fw-semibold text-dark mb-2">
+              <i class="fa-solid fa-share-nodes me-1 text-primary"></i>
+              Ikuti kegiatan &amp; dokumentasi resmi UKM English Club Polinela:
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="https://www.instagram.com/ecpolinela" target="_blank" rel="noopener noreferrer" class="program-social-pill pill-ig">
+                <i class="fa-brands fa-instagram"></i> Instagram: @ecpolinela
+              </a>
+              <a href="https://vm.tiktok.com/ZS9fBaRn317hr-GfUZ4/" target="_blank" rel="noopener noreferrer" class="program-social-pill pill-tt">
+                <i class="fa-brands fa-tiktok"></i> TikTok: @ecpolinela
+              </a>
+              <a href="https://www.youtube.com/@ecpolinela" target="_blank" rel="noopener noreferrer" class="program-social-pill pill-yt">
+                <i class="fa-brands fa-youtube"></i> YouTube: UKM English Club Polinela
+              </a>
+            </div>
+            <small class="text-muted d-block mt-2">
+              Untuk informasi lebih lanjut, silakan menghubungi panitia melalui kontak resmi yang tertera pada laman media sosial UKM English Club.
+            </small>
+          </div>
+        </div>
+
+        <div class="modal-footer border-0 px-4 pb-4 pt-2">
+          <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Lightbox Dokumentasi Kelas -->
+  <div class="modal fade" id="docPreviewModal" tabindex="-1" aria-labelledby="docPreviewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg" style="border-radius: 20px; overflow: hidden;">
+        <div class="modal-header border-0 px-4 pt-3 pb-2">
+          <h6 class="modal-title fw-bold mb-0" id="docPreviewLabel">Dokumentasi Kelas</h6>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-3 pt-0 text-center">
+          <img id="docPreviewImg" src="" alt="Preview Dokumentasi" class="img-fluid rounded-4" style="max-height: 78vh; width: auto; object-fit: contain;" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3 JS Bundle (via CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- File JavaScript Kustom -->
+  <script src="js/script.js"></script>
+</body>
+</html>
